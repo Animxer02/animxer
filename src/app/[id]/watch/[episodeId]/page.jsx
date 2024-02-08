@@ -33,35 +33,35 @@ const page = async ({ params }) => {
             Facebook
           </Link>
           <Link
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/"
             className="flex min-w-20 items-center gap-2 rounded bg-blue-500 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-twitter"></i>
             Twitter
           </Link>
           <Link
-            href="https://twitter.com"
+            href="https://twitter.com/"
             className="flex min-w-20 items-center gap-2 rounded bg-green-500 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-whatsapp"></i>
             Whatsapp
           </Link>
           <Link
-            href="https://web.whatsapp.com"
+            href="https://web.whatsapp.com/"
             className="flex min-w-20 items-center gap-2 rounded bg-indigo-500 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-discord"></i>
             Discord
           </Link>
           <Link
-            href="https://discord.com"
+            href="https://discord.com/"
             className="flex min-w-20 items-center gap-2 rounded bg-red-700 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-pinterest"></i>
             Pinterest
           </Link>
           <link
-            href"https://www.pinterest.com"
+            href"https://www.pinterest.com/"
         </div>
       </div>
       <Stream episodeId={params?.episodeId} />
