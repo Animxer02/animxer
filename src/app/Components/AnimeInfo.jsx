@@ -62,7 +62,7 @@ const AnimeInfo = ({ anime }) => {
         </div>
         <div className="my-2 flex flex-wrap items-center justify-center gap-1 md:justify-start">
           <Link
-            href="hpps://www.facebook.com"
+            href="https://www.facebook.com"
             className="flex min-w-20 items-center gap-2 rounded bg-indigo-700 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-facebook-f"></i>
