@@ -9,7 +9,7 @@ const Footer = () => {
         prohibited.
       </div>
       <div className="social-card text-primary">
-        <a href="/" className="social-link1">
+        <a href="https://www.instagram.com" className="social-link1">
           <svg
             viewBox="0 0 16 16"
             className="bi bi-instagram"
@@ -25,7 +25,7 @@ const Footer = () => {
             ></path>{" "}
           </svg>
         </a>
-        <a href="/" className="social-link2">
+        <a href="https://www.twitter.com" className="social-link2">
           <svg
             viewBox="0 0 16 16"
             className="bi bi-twitter"
@@ -41,7 +41,7 @@ const Footer = () => {
             ></path>{" "}
           </svg>{" "}
         </a>
-        <a href="/" className="social-link3">
+        <a href="https://www.discord.com" className="social-link3">
           <svg
             viewBox="0 0 16 16"
             className="bi bi-discord"
@@ -57,7 +57,7 @@ const Footer = () => {
             ></path>{" "}
           </svg>
         </a>
-        <a href="/" className="social-link4">
+        <a href="https://www.whatsapp.com" className="social-link4">
           <svg
             viewBox="0 0 16 16"
             className="bi bi-whatsapp"
