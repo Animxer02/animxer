@@ -62,7 +62,7 @@ const AnimeInfo = ({ anime }) => {
         </div>
         <div className="my-2 flex flex-wrap items-center justify-center gap-1 md:justify-start">
           <Link
-            href="#"
+            href="hpps://www.facebook.com"
             className="flex min-w-20 items-center gap-2 rounded bg-indigo-700 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-facebook-f"></i>
@@ -76,21 +76,21 @@ const AnimeInfo = ({ anime }) => {
             Twitter
           </Link>
           <Link
-            href="#"
+            href="https://www.watsapp.com"
             className="flex min-w-20 items-center gap-2 rounded bg-green-500 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-whatsapp"></i>
             Whatsapp
           </Link>
           <Link
-            href="#"
+            href="https://www.discord.com"
             className="flex min-w-20 items-center gap-2 rounded bg-indigo-500 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-discord"></i>
             Discord
           </Link>
           <Link
-            href="#"
+            href="https://www.pinterest.com"
             className="flex min-w-20 items-center gap-2 rounded bg-red-700 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-pinterest"></i>
