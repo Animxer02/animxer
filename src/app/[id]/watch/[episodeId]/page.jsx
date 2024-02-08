@@ -33,7 +33,8 @@ const page = async ({ params }) => {
             Facebook
           </Link>
           <Link
-            href="https://www.facebook.com"
+            <a
+            href="https://www.facebook.com"</a>
             className="flex min-w-20 items-center gap-2 rounded bg-blue-500 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-twitter"></i>
