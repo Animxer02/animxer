@@ -157,7 +157,7 @@ export const Animes = ({ filter, search, recents, typeFilter }) => {
             ))
           ) : (
             <div className="absolute left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%] text-center">
-              There are no animes found. <br /> Try searching something else.
+              There are n animes found. <br /> Try searching something else.
             </div>
           )
         ) : (
