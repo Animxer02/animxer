@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { genres } from "@/API/genres";
+import BookmarkBtn from "./BookmarkBtn";
 
 const AnimeInfo = ({ anime }) => {
   return (
@@ -14,10 +15,7 @@ const AnimeInfo = ({ anime }) => {
         />
         {/* Button And Follows */}
         <div className="w-9/12 text-center md:w-10/12">
-          <button className="flex w-full items-center justify-center gap-1 rounded-md bg-purple-700 py-2 text-white hover:bg-purple-900">
-            <i className="fa-regular fa-bookmark"></i>
-            Bookmark
-          </button>
+          <BookmarkBtn animeId={anime?.id} />
         </div>
         {/* Language Type, Status and Type */}
         <div className="grid w-9/12 grid-cols-2 flex-col gap-1 py-2 text-sm md:flex md:w-10/12 md:py-0 md:pb-2">
@@ -62,35 +60,35 @@ const AnimeInfo = ({ anime }) => {
         </div>
         <div className="my-2 flex flex-wrap items-center justify-center gap-1 md:justify-start">
           <Link
-            href="https://www.facebook.com"
+            href="#"
             className="flex min-w-20 items-center gap-2 rounded bg-indigo-700 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-facebook-f"></i>
             Facebook
           </Link>
           <Link
-            href="https://www.Twitter.com"
+            href="#"
             className="flex min-w-20 items-center gap-2 rounded bg-blue-500 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-twitter"></i>
             Twitter
           </Link>
           <Link
-            href="https://www.whatsapp.com"
+            href="#"
             className="flex min-w-20 items-center gap-2 rounded bg-green-500 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-whatsapp"></i>
             Whatsapp
           </Link>
           <Link
-            href="https://www.discord.com"
+            href="#"
             className="flex min-w-20 items-center gap-2 rounded bg-indigo-500 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-discord"></i>
             Discord
           </Link>
           <Link
-            href="https://www.pinterest.com"
+            href="#"
             className="flex min-w-20 items-center gap-2 rounded bg-red-700 px-2 py-1 text-xs font-normal tracking-wide text-white hover:scale-105"
           >
             <i className="fa-brands fa-pinterest"></i>
